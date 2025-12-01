@@ -1,12 +1,16 @@
+// 덧셈
 //type (x:number, y:number) -> number;
 const add = (a, b) => a + b;
 
+// 뺄셈
 //type (x:number, y:number) -> number;
 const substact = (a, b) => a - b;
 
+// 곱셈
 //type (x:number, y:number) -> number;
 const multiple = (a, b) => a * b;
 
+// 나눗셈
 //type (x:number, y:number) -> number;
 const divide = (a, b) => {
   if (b === 0) return;
